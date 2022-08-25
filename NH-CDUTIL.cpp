@@ -276,7 +276,7 @@ int main(int argc, TCHAR* argv[])
     {
         if (argc == 3)
         {
-            if (GetDriveStatus(argv[2]) == 0 or 2)
+            if (GetDriveStatus(argv[2]) == 0 or GetDriveStatus(argv[2]) == 2)
             {
                 BayControl(0, argv[2]);
             }
