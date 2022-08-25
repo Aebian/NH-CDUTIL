@@ -4,8 +4,9 @@
 ![CDUTIL LOGO](./media/nh-cdutil.png)
 
 ### Origin of the tool
-The tool came to live, after neither standard Windows nor other programs like nirCMD had a good way of showing a status of one disk drive. <br>
-Because of that, it wasn't easily possible to use the avalable features (PowerShell, nirCMD) to create a macro for my keyboard to open and close the disk drive. 
+The tool came to life, because standard Windows or other programs like nirCMD don't have a good way of showing a status of a disk drive. <br>
+Because of that, it wasn't easily possible to use the available features (PowerShell, nirCMD) to create a macro for my keyboard to open and close the disk drive. <br>
+The key was to have a switch possible so that one keypress would do a open and close based on status of the drive.  
 
 ### Features
 
