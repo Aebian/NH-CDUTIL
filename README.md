@@ -11,19 +11,20 @@ Because of that, it wasn't easily possible to use the avalable features (PowerSh
 
 The tool features a comprehensive set of tools. 
 
-| **Function** | **Valid Values**          | **Return**                                                                                  |   |
-|--------------|---------------------------|---------------------------------------------------------------------------------------------|---|
-| open         | <Drive Letter> or nothing | If <Drive Letter> specified opens that specific drive.<br>  Otherwise opens all drives found.   |   
-| close        | <Drive Letter> or nothing | If <Drive Letter> specified closes that specific drive.<br>  Otherwise closes all drives found. |   
-| dynamic      | <Drive Letter>            | Opens or Closes the specified drive based on the current status.                            |   |
-| status       | <Drive Letter>            | Opens or Closes the specified drive based on the current status.                            |   |
-| status       | <Drive Letter>            | Displays the status number of specified drive.<br>0 = Drive closed<br>1 = Drive open<br>2 = Drive closed, media loaded | 
+| **Function** | **Valid Values**          | **Return**                                                                                  |
+|--------------|---------------------------|---------------------------------------------------------------------------------------------|
+| open         | ``Drive Letter`` or nothing | If <Drive Letter> specified opens that specific drive.<br>  Otherwise opens all drives found.      
+| close        | ``Drive Letter`` or nothing | If <Drive Letter> specified closes that specific drive.<br>  Otherwise closes all drives found.    
+| dynamic      | ``Drive Letter``            | Opens or Closes the specified drive based on the current status.                            |   
+| status       | ``Drive Letter``            | Opens or Closes the specified drive based on the current status.                            |   
+| status       | ``Drive Letter``            | Displays the status number of specified drive.<br>0 = Drive closed<br>1 = Drive open<br>2 = Drive closed, media loaded 
 
 ### Example Call
 
 ``NH-CDUTIL.exe dynamic G`` or ``NH-CDUTIL.exe dynamic G:`` <br>
-As pictured above, the drive can be specified either by single character or with column.
-
+<br>
+As pictured above, the drive can be specified either by single character or with column. <br>
+Then the tool will open or close the drive specified. If you want to close or open all drives use the respective function. 
 
 ### Thanks
 - [DatTestBench](https://github.com/DatTestBench) - Thanks to my pal for helping me out on C++ questions. 
