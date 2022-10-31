@@ -198,7 +198,8 @@ void BayHole(DWORD driveAction)
 
     DWORD dwDriveList = ::GetLogicalDrives();
 
-    while (dwDriveList) {
+    while (dwDriveList) 
+    {
         if (dwDriveList & 1)
         {
             szDrive[0] = 0x41 + nPos;
